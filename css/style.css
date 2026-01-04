@@ -9,7 +9,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 2rem;
+  padding: 1rem;
   background-color: #e9eadc;
 }
 
@@ -27,18 +27,20 @@ header {
 .nav-list li a {
   text-decoration: none;
   color: #1c1c1c;
+
+  font-size: 1.25rem;
 }
 
 .abrir-menu,
 .cerrar-menu {
   display: none;
 }
-@media screen and (max-width: 593px) {
+@media screen and (max-width: 658px) {
   .abrir-menu,
   .cerrar-menu {
     display: block;
     border: 0;
-    font-size: 1.25rem;
+    font-size: 2rem;
     background-color: transparent;
     cursor: pointer;
   }
@@ -48,7 +50,7 @@ header {
   }
 
   .cerrar-menu {
-    font-size: 1rem;
+    font-size: 1.3rem;
     color: #ececec;
   }
 
