@@ -83,4 +83,9 @@ header {
   .nav-list li a {
     color: #ececec;
   }
+
+  .logo {
+  max-width: 4rem;
+  border-radius: 50%;
+}
 }
