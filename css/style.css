@@ -85,7 +85,7 @@ header {
   }
 
   .logo {
-  max-width: 4rem;
-  border-radius: 50%;
-}
+    max-width: 4.5rem;
+    border-radius: 50%;
+  }
 }
